@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<notas>
+  <nota>
+    <id>1</id>
+    <titulo>Titulo primero</titulo>
+    <texto>Primer texto</texto>
+    <fecha>22/05/2022 -- 17:32</fecha>
+    <categoria>Recuerdo</categoria>
+  </nota>
+  <nota>
+    <id>2</id>
+    <titulo>Segunda Nota</titulo>
+    <texto>Segundo texto</texto>
+    <fecha>22/05/2022 -- 16:32</fecha>
+    <categoria>Recuerdo</categoria>
+  </nota>
+  <nota>
+    <id>3</id>
+    <titulo>Tercera nota</titulo>
+    <texto>Este es el texto para la tercera nota</texto>
+    <fecha>22/05/2022 -- 17:31</fecha>
+    <categoria>Diario</categoria>
+  </nota>
+</notas>

@@ -86,7 +86,8 @@ function opciones(){
 
     const opcionesValidas = [' - Insertar nueva nota',' - Imprimir todas las notas almacenadas',' - Modificar una nota',' - Buscar una nota']
 
-    let index = READLINESYNC.keyInSelect(opcionesValidas, '>>> ',{ guide: false, cancel: ' - Cerrar el programa' })+1;
+    let index = READLINESYNC.keyInSelect(opcionesValidas, '>>> ',{ guide: false, cancel: ' - Cerrar el programa' });
+    
     return index
 }
 
@@ -94,20 +95,21 @@ function opciones(){
 function inicioPrograma(){
 
     let opcionElegida = opciones()
+    
     switch(opcionElegida){
-        case 1:
+        case 0:
             insertar()
             break;
-        case 2:
+        case 1:
             imprimir();
             break;
-        case 3:
+        case 2:
             modify.modificar()
             break;
-        case 4:
+        case 3:
             search.buscar()
             break;
-        case 0:
+        case -1:
             break;
     }
 }

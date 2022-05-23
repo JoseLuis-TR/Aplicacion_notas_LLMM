@@ -47,9 +47,6 @@ function realizarMod(mod,id,newMod)
                         encontrado = true;
                         elem.titulo = newMod;
                         elem.fecha = insert.obtFechaHoy();
-                        
-                        var builder = new xml2js.Builder();
-                        var xml = builder.buildObject(elem);
                     }
                     
                     // Si no, lo que se modificará es el texto de la nota
@@ -57,9 +54,6 @@ function realizarMod(mod,id,newMod)
                         encontrado = true;
                         elem.texto = newMod;
                         elem.fecha = insert.obtFechaHoy();
-                        
-                        var builder = new xml2js.Builder();
-                        var xml = builder.buildObject(elem);
                     };
                 };
             });
